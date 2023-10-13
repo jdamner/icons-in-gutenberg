@@ -1,0 +1,24 @@
+{
+  "name": "icons-in-gutenberg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "env-start": "wp-env start",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts lint-js --fix",
+    "lint:js": "wp-scripts lint-js",
+    "format:css": "wp-scripts lint-css --fix",
+    "lint:css": "wp-scripts lint-css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^8.9.0",
+    "@wordpress/scripts": "^26.14.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

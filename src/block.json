@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"name": "dashicons/icon",
+	"title": "Icon",
+	"icon": "star-filled",
+	"category": "widgets",
+	"attributes": {
+		"icon": {
+			"type": "string",
+			"default": "star"
+		}
+	},
+	"editorScript": "file:./index.js",
+	"supports": {
+		"anchor": true,
+		"align": true,
+		"color": { 
+			"background": true,
+			"text": true,
+			"gradients": true
+		},
+		"customClassName": false,
+		"spacing": { 
+			"padding": true,
+			"margin": true
+		},
+		"typography": {
+			"fontSize": true
+		}
+	}
+}
